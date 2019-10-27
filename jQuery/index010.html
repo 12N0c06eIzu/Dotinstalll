@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>jQueryの練習</title>
+  <style media="screen">
+  .myStyle{
+    border: 5px solid green;
+    font-size: 48px;
+  }
+  </style>
+</head>
+<body>
+  <p>jQueryの練習</p>
+  <a href="http://google.com" data-sitename="google">Google</a>
+  <input type="text"  value="hello">
+
+  <script src="../js/jquery-3.4.1.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $(function() {
+    // text
+    // html
+    // val
+    // remove, empty
+    // $('p').text('just changed');
+    // $('p').html('<a href="">click me</a>')
+    // console.log($('input').val());
+    // $('input').val('hello again!');
+    // $('p').empty();
+    $('p').remove();
+  })
+  </script>
+</body>
+</html>
